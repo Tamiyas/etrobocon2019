@@ -68,4 +68,4 @@ namespace etrobocon2019_test {
     expected += 11 * 0.9 + 12 * 0.1;
     ASSERT_DOUBLE_EQ(expected, leftEncoder.getCount());
   }
-}
+}  // namespace etrobocon2019_test
