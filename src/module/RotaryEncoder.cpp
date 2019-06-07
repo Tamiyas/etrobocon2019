@@ -7,8 +7,7 @@
 
 RotaryEncoder::RotaryEncoder() : totalAngle(0), filter() {}
 
-RotaryEncoder::RotaryEncoder(int angle_)
-  : totalAngle(angle_)
+RotaryEncoder::RotaryEncoder(int angle_) : totalAngle(angle_)
 {
   // 一度、フィルターを通して前回値を初期化する
   filter.lowPassFilter(angle_);
